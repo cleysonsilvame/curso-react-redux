@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/loader.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "prod": "pm2 start src/loader.js --name todo-app"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "node-restful": "^0.2.6",
+    "pm2": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
